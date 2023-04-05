@@ -14,6 +14,10 @@ app.get("/about", function(req, res){
     res.send("<h1>Vitor Luiz Ramalho</h1> <p>Hello My name is Vitor Luiz Ramalho. I am a programer and enthusiast in technology</p>")
 })
 
+app.get("/hobbies", function(req, res){
+    res.send("<ul><li>programing</li><li>Video Games</li><li>Anime</li></ul>")
+})
+
 app.listen(8081, function() {
     console.log("Server started on http://localhost:8081/");
 });
