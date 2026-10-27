@@ -9,7 +9,7 @@
   "author": "Vitor Luiz Ramalho",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.22.3"
   },
   "devDependencies": {
     "pstree.remy": "^1.1.0"
